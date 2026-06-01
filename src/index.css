@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Variável CSS para cor de destaque */
+:root {
+  --cor-destaque: #bef264; /* Verde Limão */
+}
+
+/* Classe para tema alternativo Neon */
+.theme-neon {
+  --cor-destaque: #00ffff; /* Ciano Neon */
+}
+
+/* Injetar variável como cor customizada do Tailwind v4 */
+@theme {
+  --color-destaque: var(--cor-destaque);
+}
