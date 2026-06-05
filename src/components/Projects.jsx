@@ -120,7 +120,7 @@ const Projects = () => {
                 x: { type: "spring", stiffness: 300, damping: 30 },
                 opacity: { duration: 0.2 },
               }}
-              className="h-auto md:h-[500px] lg:h-[550px] bg-slate-900 rounded-2xl overflow-hidden flex flex-col md:flex-row shadow-2xl"
+              className="h-auto md:h-[500px] lg:h-[550px] bg-slate-900 rounded-2xl overflow-hidden flex flex-col-reverse md:flex-row shadow-2xl"
             >
               {/* Lado Esquerdo - Conteúdo (40%) */}
               <div className="w-full md:w-[45%] py-8 px-16 lg:px-20 flex flex-col items-center justify-center text-center gap-8">

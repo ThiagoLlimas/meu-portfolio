@@ -98,17 +98,11 @@ const About = () => {
             <p className="text-slate-300 text-sm leading-relaxed">
               Para mim, código é apenas o meio; o objetivo final é o crescimento
               do seu negócio. Como desenvolvedor freelancer, minha missão é
-              traduzir a sua necessidade em uma plataforma rápida e intuitiva.
-              Abordo cada projeto buscando o equilíbrio perfeito entre um design
-              incrível (UI), uma navegação fluida que retém o usuário (UX) e a
-              performance necessária para converter visitantes em clientes.
-            </p>
-            <p className="text-slate-400 leading-relaxed">
-              Abordo cada projeto com uma mentalidade de resolução de problemas,
-              buscando sempre o equilíbrio perfeito entre performance,
-              experiência do usuário e objetivos de negócio. Acredito que um bom
-              software não é apenas funcional, mas deve ser uma ferramenta
-              estratégica para o crescimento do cliente.
+              traduzir a sua necessidade em uma plataforma rápida, intuitiva e
+              de alta performance. Abordo cada projeto com uma mentalidade de
+              resolução de problemas, unindo design atraente (UI) e navegação
+              fluida (UX) para criar uma ferramenta estratégica que retém
+              visitantes e os converte em clientes.
             </p>
           </motion.div>
 

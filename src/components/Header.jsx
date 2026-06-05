@@ -24,7 +24,7 @@ const Header = ({ onToggleTheme }) => {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800"
     >
-      <nav className="container mx-auto px-4 py-4">
+      <nav className="container mx-auto px-4 py-4 text-center">
         <div className="flex justify-between items-center">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -88,7 +88,7 @@ const Header = ({ onToggleTheme }) => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="md:hidden mt-4 py-4 border-t border-slate-800"
+            className="md:hidden mt-4 py-4 border-t border-slate-800 flex flex-col items-center justify-center"
           >
             {navItems.map((item) => (
               <a
@@ -105,7 +105,7 @@ const Header = ({ onToggleTheme }) => {
                 handleToggleTheme();
                 setIsMenuOpen(false);
               }}
-              className="block py-2 text-slate-300 hover:text-destaque transition-colors duration-300 font-medium cursor-pointer"
+              className="py-2 text-slate-300 hover:text-destaque transition-colors duration-300 font-medium cursor-pointer"
             >
               {isNeon ? "⚡ NEON: ON" : "🌑 NEON: OFF"}
             </button>

@@ -46,6 +46,34 @@ const Hero = () => {
           </motion.p>
 
           <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="my-8 flex justify-center md:hidden"
+          >
+            <motion.div
+              animate={{
+                y: [0, -20, 0],
+              }}
+              transition={{
+                duration: 3,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
+              className="relative"
+            >
+              <div className="absolute inset-0 bg-destaque rounded-full blur-xl opacity-20 animate-pulse"></div>
+              <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-destaque shadow-[0_0_60px_-10px_rgba(var(--cor-destaque),0.3)]">
+                <img
+                  src={heroImg}
+                  alt="Thiago - Desenvolvedor Front-end"
+                  className="w-full h-full object-cover object-center rounded-3xl"
+                />
+              </div>
+            </motion.div>
+          </motion.div>
+
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
@@ -74,7 +102,7 @@ const Hero = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="flex justify-center"
+          className="hidden md:flex justify-center"
         >
           <motion.div
             animate={{
