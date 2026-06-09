@@ -77,6 +77,20 @@ Seção final projetada para fechamento de contratos, centralizando o disparo di
 
 ---
 
+# 1. Clone este repositório
+git clone https://github.com/ThiagoLLimas/meu-portfolio.git
+
+# 2. Entre na pasta do projeto
+cd meu-portfolio
+
+# 3. Instale as dependências
+npm install
+
+# 4. Execute o projeto localmente
+npm run dev
+
+---
+
 ## 🔗 Links Oficiais do Projeto
 
 *   🌍 **Acesse o Portfólio em Produção:** [Meu portfólio na Vercel](https://thiagolima-dev.vercel.app/)
