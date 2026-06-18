@@ -61,7 +61,7 @@ const CookieBanner = () => {
                 onClick={handleAccept}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-destaque text-slate-900 px-6 py-2 rounded-lg font-semibold hover:bg-destaque transition-colors duration-300 whitespace-nowrap"
+                className="bg-destaque text-slate-900 px-6 py-2 rounded-lg font-semibold hover:bg-destaque transition-colors duration-300 whitespace-nowrap !cursor-pointer"
               >
                 Aceitar
               </motion.button>
