@@ -33,7 +33,7 @@ const Projects = () => {
         "Plataforma médica de alta interatividade. O diferencial aqui foi a criação de um fluxo de agendamento inteligente: integrei formulários dinâmicos e seguros diretamente a uma API do Google Sheets, permitindo gestão em tempo real pela clínica. Todo o ambiente visual foi construído com SVGs otimizados e animações fluidas no React, garantindo um site com peso mínimo e uma experiência de usuário acolhedora e moderna.",
       tech: ["React", "Tailwind", "API Sheets"],
       image: imgSaude,
-      demoUrl: "https://portal-saude-nine.vercel.app/",
+      demoUrl: "https://portal-saude-page.vercel.app/",
       codeUrl: "https://github.com/ThiagoLlimas/portal-saude",
     },
     {
