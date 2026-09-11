@@ -192,7 +192,7 @@ const Projects = () => {
           {/* Botões de Navegação */}
           <button
             onClick={handlePrev}
-            className="absolute left-4 top-1/2 -translate-y-1/2 bg-slate-800/80 backdrop-blur-sm text-white p-3 rounded-full hover:bg-slate-700/80 transition-all duration-300 z-10"
+            className="absolute left-4 cursor-pointer top-1/2 -translate-y-1/2 bg-slate-800/80 backdrop-blur-sm text-white p-3 rounded-full hover:bg-slate-700/80 transition-all duration-300 z-10"
             aria-label="Projeto anterior"
           >
             <svg
@@ -212,7 +212,7 @@ const Projects = () => {
 
           <button
             onClick={handleNext}
-            className="absolute right-4 top-1/2 -translate-y-1/2 bg-slate-800/80 backdrop-blur-sm text-white p-3 rounded-full hover:bg-slate-700/80 transition-all duration-300 z-10"
+            className="absolute right-4 cursor-pointer top-1/2 -translate-y-1/2 bg-slate-800/80 backdrop-blur-sm text-white p-3 rounded-full hover:bg-slate-700/80 transition-all duration-300 z-10"
             aria-label="Próximo projeto"
           >
             <svg
