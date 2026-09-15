@@ -206,8 +206,8 @@ const About = () => {
 
           <div className="mt-12 text-center">
             <a
-              href="/Curriculo-Thiago-Lima.pdf"
-              download="Curriculo-Thiago-Lima.pdf"
+              href="/curriculo-thiago.pdf"
+              download="curriculo-thiago.pdf"
               className="inline-flex items-center gap-2 px-6 py-3 border-2 border-destaque text-destaque font-semibold rounded-lg hover:bg-destaque hover:text-slate-900 hover:border-destaque transition-colors duration-300"
             >
               <svg
