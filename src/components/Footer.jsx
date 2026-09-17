@@ -55,12 +55,13 @@ const Footer = () => {
         >
           <motion.div variants={itemVariants} className="mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-100 mb-4">
-              Vamos Criar Algo <span className="text-destaque">Incrível?</span>
+              Vamos Construir Algo{" "}
+              <span className="text-destaque">Juntos?</span>
             </h2>
             <p className="text-slate-400 max-w-2xl mx-auto text-lg mb-8">
-              Seja para tirar uma ideia do papel ou escalar o seu projeto atual,
-              eu te ajudo a construir uma interface web de alta performance.
-              Vamos bater um papo e transformar a sua visão em realidade!
+              Aberto a oportunidades de trabalho, colaborações técnicas e trocas
+              sobre desenvolvimento front-end. Sinta-se à vontade para enviar
+              uma mensagem ou conferir minhas redes profissionais.
             </p>
 
             <motion.div
@@ -139,8 +140,7 @@ const Footer = () => {
           >
             <p className="text-slate-400 text-sm">
               © 2026 Thiago.dev. Todos os direitos reservados. Desenvolvido com
-              <span className="text-destaque mx-1">❤</span>
-              usando React, Tailwind CSS e Framer Motion
+              React, Tailwind CSS e Framer Motion
             </p>
           </motion.div>
         </motion.div>

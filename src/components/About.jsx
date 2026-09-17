@@ -2,17 +2,23 @@ import { motion } from "framer-motion";
 
 const About = () => {
   const skills = [
+    "HTML/CSS",
     "React",
     "JavaScript",
     "Tailwind CSS",
     "Node.js",
     "Framer Motion",
-    "Git",
-    "Banco de Dados",
-    "Vite/Build",
+    "Git & GitHub",
+    "PostgreSQL",
+    "SQL",
+    "Vite",
+    "Clean Code",
+    "Deployment",
     "Responsive Design",
     "Performance Optimization",
     "UI/UX",
+    "Arquitetura de Software",
+    "Supabase",
     "REST APIs",
   ];
 
@@ -52,9 +58,9 @@ const About = () => {
           </h2>
           <div className="w-24 h-1 bg-destaque mx-auto rounded-full mb-12"></div>
           <p className="text-slate-300 text-lg max-w-2xl mx-auto">
-            Muito prazer, sou o THIAGO LIMA. Desenvolvedor Front-end
-            especializado em transformar ideias em interfaces web modernas,
-            responsivas e focadas em conversão.
+            Muito prazer, sou o Thiago Lima. Desenvolvedor Front-end focado na
+            criação de interfaces web modernas, responsivas e orientadas a
+            performance, acessibilidade e experiência do usuário.
           </p>
         </motion.div>
 
@@ -79,12 +85,12 @@ const About = () => {
               - Graduado pelo Centro Universitário Internacional (Uninter).
             </p>
             <p className="text-slate-300 text-sm leading-relaxed">
-              Minha base acadêmica me deu o alicerce sólido em algoritmos e
-              arquitetura de software, mas é a prática diária no front-end que
-              me faz dominar a criação de soluções modernas. Eu não construo
-              apenas telas; eu aplico as melhores práticas de engenharia para
-              garantir que o seu projeto seja seguro, escalável e eficiente de
-              ponta a ponta.
+              Minha formação em Análise e Desenvolvimento de Sistemas me deu uma
+              base sólida em algoritmos, estrutura de dados e arquitetura de
+              software. Aplico no dia a dia do front-end as melhores práticas de
+              engenharia — como código limpo, componentização modular e
+              otimização de performance — para entregar aplicações web robustas,
+              escaláveis e de fácil manutenção.
             </p>
           </motion.div>
 
@@ -93,16 +99,16 @@ const About = () => {
             className="bg-slate-900/50 rounded-xl p-8 border border-slate-800 hover:border-destaque/30 transition-all duration-300"
           >
             <h3 className="text-2xl font-bold text-destaque mb-4">
-              Foco em Resultados Reais
+              Filosofia de Desenvolvimento
             </h3>
             <p className="text-slate-300 text-sm leading-relaxed">
-              Para mim, código é apenas o meio; o objetivo final é o crescimento
-              do seu negócio. Como desenvolvedor freelancer, minha missão é
-              traduzir a sua necessidade em uma plataforma rápida, intuitiva e
-              de alta performance. Abordo cada projeto com uma mentalidade de
-              resolução de problemas, unindo design atraente (UI) e navegação
-              fluida (UX) para criar uma ferramenta estratégica que retém
-              visitantes e os converte em clientes.
+              Enxergo o front-end como a ponte essencial entre as regras de
+              negócio de um produto e a experiência final do usuário. Abordo o
+              desenvolvimento com foco em resolução de problemas, escrevendo
+              código organizado e manutenível. Busco integrar design funcional
+              (UI) e navegação fluida (UX) a uma arquitetura sólida, garantindo
+              entregas de alto impacto técnico e facilidade de evolução para o
+              time de engenharia.
             </p>
           </motion.div>
 
@@ -148,25 +154,13 @@ const About = () => {
                 }}
                 className="p-6 bg-slate-800/50 rounded-lg border border-slate-700 hover:border-destaque transition-all duration-300 cursor-default"
               >
-                <h4 className="text-xl font-bold text-destaque mb-3">SEO</h4>
+                <h4 className="text-xl font-bold text-destaque mb-3">
+                  SEO - HTML Semântico & SEO Técnico
+                </h4>
                 <p className="text-slate-300 text-sm leading-relaxed">
-                  Estruturação semântica focada em indexação e visibilidade
-                  orgânica nos motores de busca (Google).
-                </p>
-              </motion.div>
-
-              <motion.div
-                whileHover={{
-                  scale: 1.02,
-                  borderColor: "rgb(var(--cor-destaque))",
-                }}
-                className="p-6 bg-slate-800/50 rounded-lg border border-slate-700 hover:border-destaque transition-all duration-300 cursor-default"
-              >
-                <h4 className="text-xl font-bold text-destaque mb-3">LGPD</h4>
-                <p className="text-slate-300 text-sm leading-relaxed">
-                  Desenvolvimento consciente e seguro, respeitando a privacidade
-                  e a conformidade com a proteção de dados (com suporte do nosso
-                  CookieBanner).
+                  Estruturação semântica em HTML5, garantindo acessibilidade web
+                  (A11y), boas práticas de SEO técnico e excelente indexação em
+                  motores de busca.
                 </p>
               </motion.div>
 
@@ -178,11 +172,12 @@ const About = () => {
                 className="p-6 bg-slate-800/50 rounded-lg border border-slate-700 hover:border-destaque transition-all duration-300 cursor-default"
               >
                 <h4 className="text-xl font-bold text-destaque mb-3">
-                  Métricas
+                  LGPD - Conformidade & LGPD
                 </h4>
                 <p className="text-slate-300 text-sm leading-relaxed">
-                  Integração profissional com Google Tag Manager e Analytics
-                  para monitoramento do comportamento dos usuários.
+                  Implementação de fluxos de gestão de consentimento (cookie
+                  banners), tratamento consciente de dados no client-side e
+                  adequação às diretrizes de privacidade da LGPD.
                 </p>
               </motion.div>
 
@@ -194,11 +189,29 @@ const About = () => {
                 className="p-6 bg-slate-800/50 rounded-lg border border-slate-700 hover:border-destaque transition-all duration-300 cursor-default"
               >
                 <h4 className="text-xl font-bold text-destaque mb-3">
-                  Performance
+                  Métricas - Web Analytics & Telemetria
                 </h4>
                 <p className="text-slate-300 text-sm leading-relaxed">
-                  Código otimizado com Vite e Tailwind, garantindo carregamento
-                  ultra-rápido e excelente experiência de usuário (UX).
+                  Integração de Google Tag Manager (GTM) e Google Analytics 4
+                  para rastreamento de eventos personalizados, métricas de
+                  navegação e monitoramento de comportamento do usuário.
+                </p>
+              </motion.div>
+
+              <motion.div
+                whileHover={{
+                  scale: 1.02,
+                  borderColor: "rgb(var(--cor-destaque))",
+                }}
+                className="p-6 bg-slate-800/50 rounded-lg border border-slate-700 hover:border-destaque transition-all duration-300 cursor-default"
+              >
+                <h4 className="text-xl font-bold text-destaque mb-3">
+                  Performance - Performance & Core Web Vitals
+                </h4>
+                <p className="text-slate-300 text-sm leading-relaxed">
+                  Aplicação de técnicas de otimização de carregamento usando
+                  bundlers modernos (Vite), code splitting, lazy loading de
+                  assets e otimização de renderização no front-end.
                 </p>
               </motion.div>
             </div>

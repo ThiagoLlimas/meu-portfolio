@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen bg-slate-950 flex items-center justify-center px-4 pt-20"
+      className="min-h-screen bg-slate-950 flex items-center justify-center px-4 pt-15"
     >
       <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center">
         <motion.div
@@ -20,7 +20,7 @@ const Hero = () => {
             transition={{ delay: 0.1 }}
             className="block text-destaque font-medium tracking-wider mb-2"
           >
-            👋 Olá, eu sou o Thiago
+            💻 Front-end Developer
           </motion.span>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -30,7 +30,7 @@ const Hero = () => {
           >
             Desenvolvedor Front-end
             <span className="block text-destaque mt-2">
-              Criando Experiências Digitais
+              Especialista em Aplicações Web Modernas
             </span>
           </motion.h1>
 
@@ -40,9 +40,9 @@ const Hero = () => {
             transition={{ delay: 0.4 }}
             className="text-lg md:text-xl text-slate-400 mb-8 max-w-lg mx-auto md:mx-0"
           >
-            Mais do que escrever código, eu transformo as ideias do seu negócio
-            em interfaces web rápidas, modernas e desenhadas estrategicamente
-            para converter visitantes em clientes.
+            Criação de soluções web do conceito ao código. Foco em performance,
+            padrões de código mantáveis e integração fluida com APIs e
+            ecossistemas modern front-end.
           </motion.p>
 
           <motion.div
@@ -85,7 +85,7 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
               className="bg-destaque text-slate-900 px-8 py-3 rounded-lg font-semibold hover:bg-destaque transition-colors duration-300 text-center"
             >
-              Ver Meus Projetos
+              Ver Projetos
             </motion.a>
             <motion.a
               href="#contact"
@@ -93,7 +93,7 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
               className="border-2 border-destaque text-destaque px-8 py-3 rounded-lg font-semibold hover:bg-destaque hover:text-slate-900 transition-all duration-300 text-center"
             >
-              Vamos Conversar
+              Entrar em Contato
             </motion.a>
           </motion.div>
         </motion.div>

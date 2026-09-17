@@ -12,8 +12,8 @@ const Projects = () => {
     {
       title: "Cumaru",
       description:
-        "E-commerce gastronômico com foco em uma experiência premium. O grande desafio técnico foi arquitetar e manter uma identidade visual sofisticada e consistente ao longo de 4 páginas distintas. Desenvolvido com Vite e React, o projeto conta com design 100% responsivo, curadoria visual exigente e formulários dinâmicos que facilitam a jornada do cliente, aliando estética refinada à alta performance de carregamento.",
-      tech: ["Vite", "JavaScript", "API"],
+        "Plataforma de e-commerce gastronômico construída com JavaScript e Vite. O principal foco técnico consistiu em criar um ecossistema de componentes escaláveis, integrar fluxos dinâmicos de reserva/pedidos via API e garantir renderização eficiente na interface. Conta com navegação responsiva, estado centralizado e boas práticas de acessibilidade e performance web.",
+      tech: ["Vite", "JavaScript", "REST API"],
       image: imgCulinaria,
       demoUrl: "https://cumaru-receitas.netlify.app/",
       codeUrl: "https://github.com/ThiagoLlimas/projeto-culinaria",
@@ -21,8 +21,8 @@ const Projects = () => {
     {
       title: "Serviços Locais",
       description:
-        "Diretório interativo focado em agilidade e conversão local. A prioridade técnica foi estruturar um layout extremamente limpo e de navegação intuitiva utilizando o poder do Tailwind CSS. O resultado é uma interface leve, direta e responsiva, onde a usabilidade foi lapidada para que os usuários encontrem e avaliem profissionais na região sem atritos na jornada.",
-      tech: ["JavaScript", "Tailwind", "API"],
+        "Aplicação web interativa para busca e filtragem de serviços em tempo real. O foco técnico esteve no consumo de API REST para renderização dinâmica de listas, manipulação de estado do client-side e estilização performática utilizando Tailwind CSS. Conta com lógica de busca por parâmetros, tratamento de estados de carregamento (loading/error) e interface totalmente responsiva.",
+      tech: ["JavaScript", "Tailwind CSS", "REST API"],
       image: imgServicos,
       demoUrl: "https://thiagollimas.github.io/servicos-locais/",
       codeUrl: "https://github.com/ThiagoLlimas/servicos-locais",
@@ -30,8 +30,8 @@ const Projects = () => {
     {
       title: "Portal Saúde",
       description:
-        "Plataforma médica de alta interatividade. O diferencial aqui foi a criação de um fluxo de agendamento inteligente: integrei formulários dinâmicos e seguros diretamente a uma API do Google Sheets, permitindo gestão em tempo real pela clínica. Todo o ambiente visual foi construído com SVGs otimizados e animações fluidas no React, garantindo um site com peso mínimo e uma experiência de usuário acolhedora e moderna.",
-      tech: ["React", "Tailwind", "API Sheets"],
+        "Plataforma médica para agendamento e consulta de especialidades construída em React e Tailwind CSS. Implementa formulários dinâmicos com validações no front-end, proteção contra envio automatizado e integração com backend via Google Apps Script / API. Destaca-se pela otimização de assets com SVGs leves e componentes reutilizáveis.",
+      tech: ["React", "Tailwind CSS", "Google Apps Script", "REST API"],
       image: imgSaude,
       demoUrl: "https://portal-saude-page.vercel.app/",
       codeUrl: "https://github.com/ThiagoLlimas/portal-saude",
@@ -39,8 +39,8 @@ const Projects = () => {
     {
       title: "Serviços de Viagens",
       description:
-        "Site multi-páginas de turismo com arquitetura escalável. O foco do desenvolvimento foi entregar imersão visual com total consistência de layout. A plataforma conta com estruturação padronizada de imagens em alta qualidade, sistema de roteamento fluido e formulário de reservas inteligente, guiando o cliente de forma instintiva desde a inspiração do destino até o contato final.",
-      tech: ["JavaScript", "API", "CSS"],
+        "Aplicação de turismo estruturada com arquitetura modular e navegação entre múltiplas visões. O projeto aborda roteamento de páginas, formulários interativos com validação de dados de reserva e requisições assíncronas para carregamento de destinos. Conta com técnicas de otimização de imagens (lazy loading) para manter o tempo de carregamento reduzido.",
+      tech: ["JavaScript", "HTML / CSS", "REST API"],
       image: imgViagens,
       demoUrl: "https://servicos-viagens.vercel.app/",
       codeUrl: "https://github.com/ThiagoLlimas/servicos-viagens",
@@ -102,8 +102,8 @@ const Projects = () => {
             Projetos em <span className="text-destaque">Destaque</span>
           </h2>
           <p className="text-lg text-slate-400 max-w-2xl mx-auto">
-            Soluções desenvolvidas com foco em performance, UX e conversão de
-            clientes
+            Projetos focados em boas práticas de código, componentização
+            eficiente e consumo de APIs.
           </p>
         </motion.div>
 
@@ -273,7 +273,7 @@ const Projects = () => {
                 d="M13 10V3L4 14h7v7l9-11h-7z"
               />
             </svg>
-            Quer um projeto como esses? Vamos conversar!
+            Quer saber mais sobre minha trajetória tech?
           </motion.a>
         </motion.div>
       </div>
