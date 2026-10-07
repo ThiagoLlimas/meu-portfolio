@@ -1,4 +1,4 @@
-# 💻 Personal Portfolio — Thiago Henrique Lima de Paula
+# 💻 Personal Portfólio — Thiago Henrique Lima de Paula
 
 > Single Page Application (SPA) de alta performance desenvolvida para atuar como meu hub profissional de engenharia front-end e captação de clientes. O projeto foi projetado com foco em conversão, velocidade de carregamento, conformidade legal e rastreamento analítico profissional.
 
